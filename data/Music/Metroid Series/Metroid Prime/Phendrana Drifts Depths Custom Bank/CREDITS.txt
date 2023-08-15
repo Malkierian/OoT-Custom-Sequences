@@ -1,0 +1,21 @@
+Metroid Prime - Phendrana Drifts (Deep Lake Area)
+
+Composed by Kenji Yamamoto & Kouichi Kyuma
+
+Audio Engineering for OoT by 3Pills
+
+SPECIAL THANK YOU to the following folks:
+
+- 	SynaMax on Youtube [https://www.youtube.com/@SynaMax/] for documenting 
+	the exact instruments used in the Metroid Prime soundtrack, and being
+	gracious with their time and resources in providing information on, and
+	sound files for, samples I was missing!
+
+-	owl is not a cat for the extensive assistance in helping me put together
+	and troubleshoot this project as it was my first custom sound bank. 
+	It's greatly appreciated!
+
+And thank you to the hardworking folks in the MM/OOT/DJ Rando community who 
+enabled this technology to be possible in OoT!
+
+Happy Listening!
