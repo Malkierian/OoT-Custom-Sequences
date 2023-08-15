@@ -14,7 +14,7 @@ jobs:
     - name: Generate SoH archive
       run: |
         cd data
-        wget https://github.com/Malkierian/SequenceOTRizer/releases/download/test/SequenceOTRizer-0.2-Linux.tar.gz
+        wget https://www.dropbox.com/scl/fi/yv73fcy3tyhau00prdfrm/SequenceOTRizer-0.2-Linux.tar.gz?rlkey=yy5x32q0z54metnb935z1z3td&dl=1 -O SequenceOTRizer-0.2-Linux.tar.gz
         tar -xzvf SequenceOTRizer-0.2-Linux.tar.gz
         ./SequenceOTRizer --seq-path Music --otr-name daruniasjoy
 
