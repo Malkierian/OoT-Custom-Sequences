@@ -3,7 +3,7 @@ name: Generate SoH Archive
 on:
   workflow_dispatch:
   push:
-    branches: [ "Custom-Music-2.0" ]
+    branches: [ "2.0-no-ootrs" ]
 
 jobs:
   build:
@@ -14,7 +14,6 @@ jobs:
     - name: Generate SoH archive
       run: |
         cd data
-        find . -type f -name '*.ootrs' | while read filename; do unzip -o -d "./Music/`basename -s .ootrs "$filename"`" "$filename"; done;
         wget https://github.com/Malkierian/OoT-Custom-Sequences/releases/download/test/SequenceOTRizer-0.2-Linux.tar.gz
         tar -xzvf SequenceOTRizer-0.2-Linux.tar.gz
         ./SequenceOTRizer --seq-path Music --otr-name daruniasjoy
