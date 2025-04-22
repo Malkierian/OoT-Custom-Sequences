@@ -43,7 +43,7 @@ jobs:
       uses: cb80/delrel@latest
       with:
         tag: latest
-        token: ${{ secrets.MY_TOKEN }}
+        token: ${{ secrets.GITHUB_TOKEN }}
 
     - name: Create GitHub Release
       uses: softprops/action-gh-release@v2
