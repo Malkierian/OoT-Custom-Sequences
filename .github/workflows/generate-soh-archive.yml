@@ -39,6 +39,12 @@ jobs:
             https://api.github.com/repos/${{ github.repository }}/releases/$release_id
         done < release_ids.txt
 
+    - name: Delete Tag
+      uses: cb80/delrel@latest
+      with:
+        tag: latest
+        token: ${{ secrets.MY_TOKEN }}
+
     - name: Create GitHub Release
       uses: softprops/action-gh-release@v2
       env:
