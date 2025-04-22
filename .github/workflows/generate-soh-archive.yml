@@ -1,4 +1,5 @@
 name: Generate SoH Archive
+permissions: write-all
 
 on:
   push:
