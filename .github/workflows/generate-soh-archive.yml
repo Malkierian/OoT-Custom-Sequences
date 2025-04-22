@@ -29,6 +29,7 @@ jobs:
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       with:
+        token: ${{ secrets.GITHUB_TOKEN }}
         files: data/mods/daruniasjoy.otr
-        tag_name: latest
-        name: Ship of Harkinian Bundle
+        tag: latest
+        release: Ship of Harkinian Bundle
